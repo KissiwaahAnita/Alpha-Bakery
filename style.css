@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+nav{
+    background-color: black;
+    padding: 1rem;
+    width: auto;
+    color: white;
+}
+nav ul li{
+   display: inline; 
+   padding: 1em;
+
+}
+/* nav ul li animation*/
+nav ul li:hover{
+    background-color: chartreuse;
+    display: inline;
+    padding: 1em;
+
+
+}
+
+nav ul li:active{
+    background-color: fuchsia;
+    display: inline;
+    padding: 1em;
+
+}
+marquee p{
+    background-color: rgb(65, 65, 141);
+    font: italic;
+    font-size: larger;
+    display: inline;
+}
+
+header h1{
+    background-color: wheat;
+    padding: 1em;
+    width: 120px; ;
+    margin: 1em;
+    margin-top: 2em;
+    
+}
+/* header animation*/
+header h1:active{
+    background-color: crimson;
+    display: inline;
+    padding: 1em;
+
+}
+header{
+    background-color:yellow;
+    background-image: url(./images/baking.jpg);
+    padding: 2em;
+    margin: 1em;
+    width: 100%;
+    height: 100vh;
+}
+
+button{
+    background-color: crimson;
+    width: 20%;
+    height: 9vh;
+    border-radius: 10ex;
+    margin: 2em;
+    padding: 2em;
+    font-size: bold;
+    text-align: center;
+}
+.body p h3{
+    background-color: crimson;
+    padding: 2em;
+    margin:1em;
+
+}
+footer{
+    background-color: crimson;
+    text-align: center;
+    border-radius: 12ex;
+}

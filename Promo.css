@@ -1,0 +1,93 @@
+
+   *{
+    margin: 0;
+    padding: 0;
+   }
+
+   nav{
+    background-color: black;
+    padding: 1em;
+    color: white;
+
+    width: auto;
+
+   }
+   nav ul li{
+    display: inline;
+    padding: 1em;
+    
+   }
+   nav ul li:hover{
+    background-color:blue;
+    display: inline;
+    padding: 1em;
+   }
+   nav ul li:active{
+    display: inline;
+    padding: 1em;
+    background-color: red;
+   }
+   header{
+    background-image: url(./images/free\ image.jpg);
+    padding: 10em;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+
+   }
+   header h1{
+    width: 40%;
+    padding: 2em;
+    background-color: wheat;
+    border-radius: 12px;
+
+   }
+   header h1:hover{
+    background-color: blue;
+    color:#333;
+    cursor: pointer;
+    
+   }
+   header button:hover{
+    background-color: aqua;
+    cursor: pointer;
+   }
+   header h1:active{
+    transition: 500ms;
+    transform: translateY(1em);
+    background-color: pink;
+    padding: 1em;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 0px #333;
+
+   }
+   button{
+      background-color: wheat;
+      text-align: center;
+      padding: 2em;
+      margin: 1em;
+
+
+   }
+
+   .body{
+      background-color: ;
+      padding: 1em;
+      text-align: center;
+
+   }
+
+   .body.promo-section{
+      background-color: ;
+      padding: 1em;
+   }
+   .body.promo-section h2{
+      text-align: center;
+   }
+
+   .body.promo-section.promo-cards-box{
+      padding: 1em;
+   }
+
+   .body.promo-section.promo-cards-box.promo-c
